@@ -1,4 +1,5 @@
 package ru.geekbrains.java.core.homeworks.homework1;
+//first homework
 
 public class HomeWorkApp {
     public static void main( String[] args )
@@ -30,7 +31,7 @@ public class HomeWorkApp {
 
     public static String printColor() {
 
-        int value = (int) (Math.random() * 200 - 100);
+        int value = (int) (Math.random() * 200 - 99);
         String s;
         if (value <= 0) {
             s = "Красный";
